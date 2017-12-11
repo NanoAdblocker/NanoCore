@@ -592,7 +592,7 @@
     "content": "filters",
     "group": "regions",
     "off": true,
-    "title": "Popup Blocker PLUS - uzupełnienie do uBlocka",
+    "title": "Popup Blocker PLUS uzupełnienie",
     "lang": "pl",
     "contentURL": "https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB_uBlock_AdGuard.txt",
     "supportURL": "https://github.com/azet12/PopupBlocker/issues"
