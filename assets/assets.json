@@ -637,10 +637,19 @@
     "content": "filters",
     "group": "regions",
     "off": true,
-    "title": "POL: Polskie filtry anti-scam",
+    "title": "POL: Polskie filtry KAD",
     "lang": "pl",
     "contentURL": "https://raw.githubusercontent.com/azet12/KAD/master/KAD.txt",
     "supportURL": "https://github.com/azet12/KAD/issues"
+  },
+  "POL-9": {
+    "content": "filters",
+    "group": "regions",
+    "off": true,
+    "title": "POL: Polskie filtry AlleBlock",
+    "lang": "pl",
+    "contentURL": "https://alleblock.pl/alleblock/alleblock.txt",
+    "supportURL": "https://github.com/maciejtarmas/AlleBlock/issues"
   },
   "RUS-0": {
     "content": "filters",
