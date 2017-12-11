@@ -565,7 +565,7 @@
     "content": "filters",
     "group": "regions",
     "off": true,
-    "title": "POL: polskie filtry do Adblocka i uBlocka",
+    "title": "POL: Polskie filtry do Adblocka i uBlocka",
     "lang": "pl",
     "contentURL": "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-adblock-filters/adblock.txt",
     "supportURL": "https://github.com/MajkiIT/polish-ads-filter/issues"
@@ -574,10 +574,73 @@
     "content": "filters",
     "group": "regions",
     "off": true,
-    "title": "POL: polskie filtry do uBlocka uzupelnienie",
+    "title": "POL: Polskie filtry do uBlocka uzupelnienie",
     "lang": "pl",
     "contentURL": "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-adblock-filters/adblock_ublock.txt",
     "supportURL": "https://github.com/MajkiIT/polish-ads-filter/issues"
+  },
+  "POL-2": {
+    "content": "filters",
+    "group": "regions",
+    "off": true,
+    "title": "POL: Popup Blocker PLUS",
+    "lang": "pl",
+    "contentURL": "https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt",
+    "supportURL": "https://github.com/azet12/PopupBlocker/issues"
+  },
+  "POL-3": {
+    "content": "filters",
+    "group": "regions",
+    "off": true,
+    "title": "Popup Blocker PLUS - uzupełnienie do uBlocka",
+    "lang": "pl",
+    "contentURL": "https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB_uBlock_AdGuard.txt",
+    "supportURL": "https://github.com/azet12/PopupBlocker/issues"
+  },
+  "POL-4": {
+    "content": "filters",
+    "group": "regions",
+    "off": true,
+    "title": "POL: Polskie filtry cookies",
+    "lang": "pl",
+    "contentURL": "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/cookies_filters/adblock_cookies.txt",
+    "supportURL": "https://github.com/MajkiIT/polish-ads-filter/issues"
+  },
+  "POL-5": {
+    "content": "filters",
+    "group": "regions",
+    "off": true,
+    "title": "POL: Polskie filtry social",
+    "lang": "pl",
+    "contentURL": "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/adblock_social_filters/adblock_social_list.txt",
+    "supportURL": "https://github.com/MajkiIT/polish-ads-filter/issues"
+  },
+  "POL-6": {
+    "content": "filters",
+    "group": "regions",
+    "off": true,
+    "title": "POL: Polskie filtry inside",
+    "lang": "pl",
+    "contentURL": "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/inside-filters/adblock_wewnetrzne.txt",
+    "supportURL": "https://github.com/MajkiIT/polish-ads-filter/issues"
+  },
+  "POL-7": {
+    "content": "filters",
+    "group": "regions",
+    "off": true,
+    "title": "POL: Polskie filtry anti-donate",
+    "lang": "pl",
+    "contentURL": "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/anti-donate-filters/adblock_anty-dotacje.txt",
+    "supportURL": "https://github.com/MajkiIT/polish-ads-filter/issues"
+  },
+  "POL-8": {
+    "content": "filters",
+    "group": "regions",
+    "off": true,
+    "title": "POL: Polskie filtry anti-scam",
+    "lang": "pl",
+    "contentURL": "https://raw.githubusercontent.com/azet12/KAD/master/KAD.txt",
+    "supportURL": "https://github.com/azet12/KAD/issues"
   },
   "RUS-0": {
     "content": "filters",
