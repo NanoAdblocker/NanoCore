@@ -29,6 +29,11 @@ Available since 1.0.0.6
 
 Available since 1.0.0.0
 
+## Installation
+
+### Chromium
+You can install the latest version from the [Chrome store](https://chrome.google.com/webstore/detail/nano-adblocker/gabbbocakeomblphkmmnoamkioajlkfo) or [manually](https://github.com/NanoAdblocker/NanoCore/releases/latest).
+
 ## Change Log
 
 Housekeeping (renaming, formatting, resources update, minor UI tweak, etc.) changes are not listed here. 
