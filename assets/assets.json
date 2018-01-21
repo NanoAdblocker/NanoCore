@@ -364,6 +364,13 @@
     "contentURL": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
     "supportURL": "https://github.com/hoshsadiq/adblock-nocoin-list/issues"
   },
+  "cookies-0": {
+    "content": "filters",
+    "group": "multipurpose",
+    "off": true,
+    "title": "I don't care about cookies",
+    "contentURL": "https://www.i-dont-care-about-cookies.eu/abp/"
+  },
 
 
   "ara-0": {
