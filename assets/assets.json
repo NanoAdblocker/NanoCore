@@ -363,14 +363,6 @@
     ],
     "supportURL": "https://pgl.yoyo.org/adservers/"
   },
-  "nocoin-0": {
-    "content": "filters",
-    "group": "multipurpose",
-    "off": true,
-    "title": "NoCoin Filter List",
-    "contentURL": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
-    "supportURL": "https://github.com/hoshsadiq/adblock-nocoin-list/issues"
-  },
 
 
   "ara-0": {
