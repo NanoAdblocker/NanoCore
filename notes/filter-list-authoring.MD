@@ -21,9 +21,6 @@ the first one that appears will override the next two).
 ### `! Title: <title>` or `# Title: <title>`
 
 Indicates the title of the filter list, it is displayed in filter lists manager.
-
-uBlock Origin only accepts the first syntax form (with `!`).
-
 If this header is missing, the URL of the filter list will be used.
 
 Examples:
@@ -39,8 +36,7 @@ or hours, but you must use an integer in either case. If you use hour as unit,
 it will be rounded *up* to the nearest day. The lower cap is 1 day and the upper
 cap is 60.
 
-uBlock Origin only accepts the first syntax form (with `!`), does not enforce
-an upper cap, and does not accept hour as unit.
+uBlock Origin does not enforce an upper cap, and does not accept hour as unit.
 
 If this header is missing, Nano Adblocker will default to 3 days and uBlock
 Origin will default to 5. Some built-in filter lists of Nano Adblocker
@@ -86,7 +82,7 @@ usually better to allow them to subscribe by simply clicking a link.
 
 To make such link, you need to assign `href` of an anchor element (`<a>`) to:
 ```
-abp://subscribe?location=<URL>&title=<title>
+ubo://subscribe?location=<URL>&title=<title>
 ```
 
 Make sure the URL is pointing to a *raw* text file and not HTML. Also, only
@@ -99,15 +95,12 @@ link like a query string, so do not switch the order of `location` and `title`.
 You should encode the URL and title with `encodeURIComponent`. Also, the title
 field is required.
 
-One slight problem is that a lot of filters are not compatible with Adblock
-Plus; to make sure Adblock Plus will not react to the link, replace `abp://`
-with `ubo://`. However, uBlock Origin does not actually accept that, and only
-Nano Adblocker recognize `ubo://` as of now. We have decided to not make it
-`nano://` in the fear of name collision.
+Note that `abp://` is also accepted, but it is recommended to use `ubo://` for
+filter lists with extended syntax.
 
 Examples (with URL to be `https://example.com/filter.txt` and title `My
 Filter`):
 ```
-abp://subscribe?location=https%3A%2F%2Fexample.com%2Ffilter.txt&title=My%20Filter
 ubo://subscribe?location=https%3A%2F%2Fexample.com%2Ffilter.txt&title=My%20Filter
+abp://subscribe?location=https%3A%2F%2Fexample.com%2Ffilter.txt&title=My%20Filter
 ```

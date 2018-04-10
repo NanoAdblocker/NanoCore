@@ -69,11 +69,13 @@
             // everything
             // Notes 2018-03-06: https://stackoverflow.com/a/19728876/6598117
             // This shouldn't cause performance overhead
-            scriptletCache.add(raw,
+            content =
                 'try {\n' +
-                    content +
-                '\n} catch ( err ) { console.error("[Nano] Script Snippet ::", err); }'
-            );
+                    content + '\n' +
+                '} catch ( e ) {\n' +
+                '    console.error("[Nano] Script Snippet ::", e);\n' +
+                '}';
+            scriptletCache.add(raw, content);
         }
         toInject.set(raw, content);
     };

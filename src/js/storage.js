@@ -766,7 +766,7 @@
     // Always try to fetch the name if this is an external filter list.
     if ( listEntry.title === '' || listEntry.group === 'custom' ) {
         // Patch 2018-03-02: Accept "# Title:" as alternative syntax
-        matches = head.match(/(?:^|\n)(?:!|#)\s*Title:([^\n]+)/i);
+        matches = head.match(/(?:^|\n)(?:!|# )\s*Title:([^\n]+)/i);
         if ( matches !== null ) {
             // https://bugs.chromium.org/p/v8/issues/detail?id=2869
             // JSON.stringify/JSON.parse is to work around String.slice()
@@ -781,7 +781,7 @@
     // Patch 2018-03-02: Accept "# Expires:" as alternative syntax
     // Patch 2018-03-05: When a filter list loses explicit header, reset the
     // update period
-    matches = head.match(/(?:^|\n)(?:!|#)[\t ]*Expires:[\t ]*([\d]+)[\t ]*(day|hour)s?/i);
+    matches = head.match(/(?:^|\n)(?:!|# )\s*Expires:\s*(\d+)\s*(day|hour)/i);
     if ( matches !== null ) {
         v = parseInt(matches[1], 10);
         if ( matches[2].toLowerCase() === 'hour' ) {

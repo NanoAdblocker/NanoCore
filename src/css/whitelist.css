@@ -1,12 +1,8 @@
-/* Patch 2017-12-12: Change textarea to IDE */
-div > p:first-child {
-    margin-top: 0;
-    }
-div > p:last-child {
-    margin-bottom: 0;
+body {
+    overflow: hidden;
     }
 #whitelist {
-    height: 60vh;
+    height: 75vh;
     text-align: left;
     width: 100%;
     }

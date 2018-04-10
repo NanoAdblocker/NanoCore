@@ -103,9 +103,58 @@ var onPSLReady = function() {
 // To bring older versions up to date
 
 var onVersionReady = function(lastVersion) {
-    if ( lastVersion !== vAPI.app.version ) {
-        vAPI.storage.set({ version: vAPI.app.version });
+    if ( lastVersion === vAPI.app.version ) { return; }
+
+    // Since AMO does not allow updating resources.txt, force a reload when a
+    // new version is detected, as resources.txt may have changed since last
+    // release. This will be done only for release versions of Firefox.
+    if (
+        /^Mozilla-Firefox-/.test(vAPI.webextFlavor) &&
+        /(b|rc)\d+$/.test(vAPI.app.version) === false
+    ) {
+        µb.redirectEngine.invalidateResourcesSelfie();
     }
+
+    // From 1.15.19b9 and above, the `behind-the-scene` scope is no longer
+    // whitelisted by default, and network requests from that scope will be
+    // subject to filtering by default.
+    //
+    // Following code is to remove the `behind-the-scene` scope when updating
+    // from a version older than 1.15.19b9.
+    // This will apply only to webext versions of uBO, as the following would
+    // certainly cause too much breakage in Firefox legacy given that uBO can
+    // see ALL network requests.
+    // Remove when everybody is beyond 1.15.19b8.
+    (function patch1015019008(s) {
+        if ( vAPI.firefox !== undefined ) { return; }
+        
+        // Patch 2018-04-03: Add our own version check
+        var match = /.(\d+)\.(\d+)$/.exec(s);
+        if ( match === null ) { return; }
+        if ( parseInt(match[1], 10) > 0 ) { return; }
+        if ( parseInt(match[2], 10) > 40 ) { return; }
+        
+        if ( µb.getNetFilteringSwitch('http://behind-the-scene/') ) { return; }
+        var fwRules = [
+            'behind-the-scene * * noop',
+            'behind-the-scene * image noop',
+            'behind-the-scene * 3p noop',
+            'behind-the-scene * inline-script noop',
+            'behind-the-scene * 1p-script noop',
+            'behind-the-scene * 3p-script noop',
+            'behind-the-scene * 3p-frame noop'
+        ].join('\n');
+        µb.sessionFirewall.fromString(fwRules, true);
+        µb.permanentFirewall.fromString(fwRules, true);
+        µb.savePermanentFirewallRules();
+        µb.hnSwitches.fromString([
+            'no-large-media: behind-the-scene false'
+        ].join('\n'), true);
+        µb.saveHostnameSwitches();
+        µb.toggleNetFilteringSwitch('http://behind-the-scene/', '', true);
+    })(lastVersion);
+
+    vAPI.storage.set({ version: vAPI.app.version });
 };
 
 /******************************************************************************/
@@ -250,14 +299,28 @@ var fromFetch = function(to, fetched) {
 var onSelectedFilterListsLoaded = function() {
     var fetchableProps = {
         'compiledMagic': '',
-        'dynamicFilteringString': 'behind-the-scene * 3p noop\nbehind-the-scene * 3p-frame noop',
+        'dynamicFilteringString': [
+            'behind-the-scene * * noop',
+            'behind-the-scene * image noop',
+            'behind-the-scene * 3p noop',
+            'behind-the-scene * inline-script noop',
+            'behind-the-scene * 1p-script noop',
+            'behind-the-scene * 3p-script noop',
+            'behind-the-scene * 3p-frame noop'
+        ].join('\n'),
         'urlFilteringString': '',
-        // Patch 2017-12-23: Update default settings to block all CSP reports
-        // CSP reports are extremely easy to abuse, they can be exploited to
-        // track the user as they can be generated dynamically with JavaScript.
-        // The report-only header can also be used to see what extensions did
-        // to the DOM, disclosing extensions that the user have installed
-        'hostnameSwitchesString': 'no-csp-reports: * true',
+        'hostnameSwitchesString': [
+            // Patch 2017-12-23: Update default settings to block all CSP
+            // reports
+            // CSP reports are extremely easy to abuse, they can be exploited
+            // to track the user as they can be generated dynamically with
+            // JavaScript
+            // The report-only header can also be used to see what extensions
+            // did to the DOM, disclosing extensions that the user have
+            // installed
+            'no-csp-reports: * true',
+            'no-large-media: behind-the-scene false'
+        ].join('\n'),
         'lastRestoreFile': '',
         'lastRestoreTime': 0,
         'lastBackupFile': '',

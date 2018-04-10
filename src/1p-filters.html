@@ -4,37 +4,47 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>uBlock — Your filters</title>
-<link rel="stylesheet" type="text/css" href="css/common.css">
-<link rel="stylesheet" type="text/css" href="css/dashboard-common.css">
-<link rel="stylesheet" type="text/css" href="css/cloud-ui.css">
-<link rel="stylesheet" type="text/css" href="css/1p-filters.css">
+
+<link rel="stylesheet" href="lib/codemirror/lib/codemirror.css">
+<link rel="stylesheet" href="lib/codemirror/addon/search/matchesonscrollbar.css">
+
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/dashboard-common.css">
+<link rel="stylesheet" href="css/cloud-ui.css">
+<link rel="stylesheet" href="css/1p-filters.css">
+<link rel="stylesheet" href="css/codemirror.css">
 </head>
 
 <body>
 
-<div id="cloudWidget" class="hide" data-cloud-entry="myFiltersPane"></div>
+<div class="body">
+    <div id="cloudWidget" class="hide" data-cloud-entry="myFiltersPane"></div>
 
-<!-- Patch 2017-12-09: Add links to documentation -->
-<p><span data-i18n="1pFormatHint"></span> <a class="fa info" href="https://github.com/NanoAdblocker/NanoCore/blob/master/notes/filter-syntax.MD#filter-syntax" target="_blank">&#xf05a;</a></p>
-<p>
-    <span data-i18n="1pResourcesReference"></span>
-    <a href="https://github.com/uBlockOrigin/uAssets/blob/master/filters/resources.txt" target="_blank" data-i18n="1pResourcesOriginal"></a>
-    <span data-i18n="1pResourcesAnd"></span>
-    <a href="https://github.com/NanoAdblocker/NanoFilters/blob/master/NanoFiltersSource/NanoResources.txt" target="_blank" data-i18n="1pResourcesNano"></a>
-    <span data-i18n="1pResourcesPeriod"></span>
-</p>
-<p>
-    <button id="userFiltersApply" class="custom important" type="button" disabled="true" data-i18n="1pApplyChanges"></button>&ensp;
-    <button id="userFiltersRevert" class="custom" type="button" disabled="true" data-i18n="genericRevert"></button>
-</p>
-<!-- Patch 2017-12-06: Add syntax highlighting -->
-<p><div class="userFilters" id="userFilters" dir="auto"></div></p>
-<p>
-    <button id="importUserFiltersFromFile" class="custom" data-i18n="1pImport"></button>&ensp;
-    <button id="exportUserFiltersToFile" class="custom" data-i18n="1pExport"></button>
-    <input id="importFilePicker" type="file" accept="text/plain" class="hiddenFileInput">
-</p>
-<p><span data-i18n="1pFilterEditorHelp"></span> <a class="fa info" href="https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts" target="_blank">&#xf05a;</a></p>
+    <p class="vverbose"><span data-i18n="1pFormatHint"></span> <a class="fa info" href="https://github.com/NanoAdblocker/NanoCore/blob/master/notes/filter-syntax.MD#filter-syntax" target="_blank">&#xf05a;</a></p>
+    <p>
+        <span data-i18n="1pResourcesReference"></span>
+        <a href="https://github.com/uBlockOrigin/uAssets/blob/master/filters/resources.txt" target="_blank" data-i18n="1pResourcesOriginal"></a>
+        <span data-i18n="1pResourcesAnd"></span>
+        <a href="https://github.com/NanoAdblocker/NanoFilters/blob/master/NanoFiltersSource/NanoResources.txt" target="_blank" data-i18n="1pResourcesNano"></a>
+        <span data-i18n="1pResourcesPeriod"></span>
+    </p>
+    <p>
+        <button id="userFiltersApply" class="custom important iconifiable" type="button" disabled><span class="fa">&#xf00c;</span><span data-i18n="1pApplyChanges"></span></button>
+        <button id="userFiltersRevert" class="custom iconifiable" type="button" disabled><span class="fa">&#xf0e2;</span><span data-i18n="genericRevert"></span></button>
+        &emsp;&emsp;
+        <button id="importUserFiltersFromFile" class="custom iconifiable" type="button"><span class="fa">&#xf019;</span><span data-i18n="1pImport"></span></button>
+        <button id="exportUserFiltersToFile" class="custom iconifiable" type="button"><span class="fa">&#xf093;</span><span data-i18n="1pExport"></span></button>
+    </p>
+</div>
+<div class="userFilters" id="userFilters"></div>
+<div class="hidden">
+    <input id="importFilePicker" type="file" accept="text/plain">
+</div>
+
+<script src="lib/ace/ace-1.2.9.js"></script>
+<script src="lib/ace/ext-searchbox-1.2.9.js"></script>
+<script src="js/nano-highlight.js"></script>
+<script src="js/nano-ide.js"></script>
 
 <script src="js/vapi.js"></script>
 <script src="js/vapi-common.js"></script>
@@ -43,10 +53,6 @@
 <script src="js/i18n.js"></script>
 <script src="js/dashboard-common.js"></script>
 <script src="js/cloud-ui.js"></script>
-<script src="lib/ace/ace-1.2.9.js"></script>
-<script src="lib/ace/ext-searchbox-1.2.9.js"></script>
-<script src="js/nano-highlight.js"></script>
-<script src="js/nano-ide.js"></script>
 <script src="js/1p-filters.js"></script>
 
 </body>
