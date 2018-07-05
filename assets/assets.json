@@ -4,6 +4,9 @@
     "updateAfter": 5,
     "contentURL": [
       "https://raw.githubusercontent.com/NanoAdblocker/NanoCore/master/assets/assets.json",
+      "https://cdn.rawgit.com/NanoAdblocker/NanoCore/master/assets/assets.json",
+      "https://gitcdn.xyz/repo/NanoAdblocker/NanoCore/master/assets/assets.json",
+      "https://gitcdn.link/repo/NanoAdblocker/NanoCore/master/assets/assets.json"
       "assets/assets.json"
     ]
   },
@@ -11,8 +14,7 @@
     "content": "internal",
     "updateAfter": 14,
     "contentURL": [
-      "https://publicsuffix.org/list/public_suffix_list.dat",
-      "assets/ThirdParty/PublicSuffix.dat"
+      "https://publicsuffix.org/list/public_suffix_list.dat"
     ]
   },
   "ublock-resources": {
@@ -20,7 +22,9 @@
     "updateAfter": 5,
     "contentURL": [
       "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resources.txt",
-      "assets/ThirdParty/uBlockResources.txt"
+      "https://cdn.rawgit.com/uBlockOrigin/uAssets/master/filters/resources.txt",
+      "https://gitcdn.xyz/repo/uBlockOrigin/uAssets/master/filters/resources.txt",
+      "https://gitcdn.link/repo/uBlockOrigin/uAssets/master/filters/resources.txt"
     ]
   },
   "nano-resources": {
@@ -29,7 +33,8 @@
     "contentURL": [
       "https://raw.githubusercontent.com/NanoAdblocker/NanoFilters/master/NanoFilters/NanoResources.txt",
       "https://cdn.rawgit.com/NanoAdblocker/NanoFilters/master/NanoFilters/NanoResources.txt",
-      "assets/NanoFilters/NanoResources.txt"
+      "https://gitcdn.xyz/repo/NanoAdblocker/NanoFilters/master/NanoFilters/NanoResources.txt",
+      "https://gitcdn.link/repo/NanoAdblocker/NanoFilters/master/NanoFilters/NanoResources.txt"
     ]
   },
 
@@ -41,7 +46,8 @@
     "contentURL": [
       "https://raw.githubusercontent.com/NanoAdblocker/NanoFilters/master/NanoFilters/NanoBase.txt",
       "https://cdn.rawgit.com/NanoAdblocker/NanoFilters/master/NanoFilters/NanoBase.txt",
-      "assets/NanoFilters/NanoBase.txt"
+      "https://gitcdn.xyz/repo/NanoAdblocker/NanoFilters/master/NanoFilters/NanoBase.txt",
+      "https://gitcdn.link/repo/NanoAdblocker/NanoFilters/master/NanoFilters/NanoBase.txt"
     ],
     "supportURL": "https://github.com/NanoAdblocker/NanoFilters/issues"
   },
@@ -53,7 +59,8 @@
     "contentURL": [
       "https://raw.githubusercontent.com/NanoAdblocker/NanoFilters/master/NanoFilters/NanoAnnoyance.txt",
       "https://cdn.rawgit.com/NanoAdblocker/NanoFilters/master/NanoFilters/NanoAnnoyance.txt",
-      "assets/NanoFilters/NanoAnnoyance.txt"
+      "https://gitcdn.xyz/repo/NanoAdblocker/NanoFilters/master/NanoFilters/NanoAnnoyance.txt",
+      "https://gitcdn.link/repo/NanoAdblocker/NanoFilters/master/NanoFilters/NanoAnnoyance.txt"
     ],
     "supportURL": "https://github.com/NanoAdblocker/NanoFilters/issues"
   },
@@ -64,7 +71,8 @@
     "contentURL": [
       "https://raw.githubusercontent.com/NanoAdblocker/NanoFilters/master/NanoFilters/NanoWhitelist.txt",
       "https://cdn.rawgit.com/NanoAdblocker/NanoFilters/master/NanoFilters/NanoWhitelist.txt",
-      "assets/NanoFilters/NanoWhitelist.txt"
+      "https://gitcdn.xyz/repo/NanoAdblocker/NanoFilters/master/NanoFilters/NanoWhitelist.txt",
+      "https://gitcdn.link/repo/NanoAdblocker/NanoFilters/master/NanoFilters/NanoWhitelist.txt"
     ],
     "supportURL": "https://github.com/NanoAdblocker/NanoFilters/issues"
   },
@@ -75,9 +83,13 @@
     "off": true,
     "contentURL": [
       "https://raw.githubusercontent.com/jspenguin2017/uBlockProtector/master/uBlockProtectorList.txt",
+      "https://cdn.rawgit.com/jspenguin2017/uBlockProtector/master/uBlockProtectorList.txt",
+      "https://gitcdn.xyz/repo/jspenguin2017/uBlockProtector/master/uBlockProtectorList.txt",
+      "https://gitcdn.link/repo/jspenguin2017/uBlockProtector/master/uBlockProtectorList.txt",
       "https://raw.githubusercontent.com/NanoAdblocker/NanoFilters/master/NanoMirror/NanoDefender.txt",
       "https://cdn.rawgit.com/NanoAdblocker/NanoFilters/master/NanoMirror/NanoDefender.txt",
-      "assets/ThirdParty/NanoDefender.txt"
+      "https://gitcdn.xyz/repo/NanoAdblocker/NanoFilters/master/NanoMirror/NanoDefender.txt",
+      "https://gitcdn.link/repo/NanoAdblocker/NanoFilters/master/NanoMirror/NanoDefender.txt"
     ],
     "supportURL": "https://github.com/NanoAdblocker/NanoFilters/issues",
     "instructionURL": "https://jspenguin2017.github.io/uBlockProtector/"
@@ -90,7 +102,9 @@
     "title": "uBlock filters",
     "contentURL": [
       "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt",
-      "assets/ThirdParty/uBlockBase.txt"
+      "https://cdn.rawgit.com/uBlockOrigin/uAssets/master/filters/filters.txt",
+      "https://gitcdn.xyz/repo/uBlockOrigin/uAssets/master/filters/filters.txt",
+      "https://gitcdn.link/repo/uBlockOrigin/uAssets/master/filters/filters.txt"
     ],
     "supportURL": "https://github.com/uBlockOrigin/uAssets/issues"
   },
@@ -100,18 +114,12 @@
     "title": "uBlock filters – Badware risks",
     "contentURL": [
       "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt",
-      "assets/ThirdParty/uBlockBadware.txt"
+      "https://cdn.rawgit.com/uBlockOrigin/uAssets/master/filters/badware.txt",
+      "https://gitcdn.xyz/repo/uBlockOrigin/uAssets/master/filters/badware.txt",
+      "https://gitcdn.link/repo/uBlockOrigin/uAssets/master/filters/badware.txt"
     ],
     "supportURL": "https://github.com/uBlockOrigin/uAssets/issues",
     "instructionURL": "https://github.com/gorhill/uBlock/wiki/Badware-risks"
-  },
-  "ublock-experimental": {
-    "content": "filters",
-    "group": "default",
-    "title": "uBlock filters – Experimental",
-    "off": true,
-    "contentURL": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/experimental.txt",
-    "instructionURL": "https://github.com/gorhill/uBlock/wiki/Experimental-filters"
   },
   "ublock-privacy": {
     "content": "filters",
@@ -119,7 +127,9 @@
     "title": "uBlock filters – Privacy",
     "contentURL": [
       "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt",
-      "assets/ThirdParty/uBlockPrivacy.txt"
+      "https://cdn.rawgit.com/uBlockOrigin/uAssets/master/filters/privacy.txt",
+      "https://gitcdn.xyz/repo/uBlockOrigin/uAssets/master/filters/privacy.txt",
+      "https://gitcdn.link/repo/uBlockOrigin/uAssets/master/filters/privacy.txt"
     ],
     "supportURL": "https://github.com/uBlockOrigin/uAssets/issues"
   },
@@ -129,7 +139,9 @@
     "title": "uBlock filters – Resource abuse",
     "contentURL": [
       "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt",
-      "assets/ThirdParty/uBlockAbuse.txt"
+      "https://cdn.rawgit.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt",
+      "https://gitcdn.xyz/repo/uBlockOrigin/uAssets/master/filters/resource-abuse.txt",
+      "https://gitcdn.link/repo/uBlockOrigin/uAssets/master/filters/resource-abuse.txt"
     ],
     "supportURL": "https://github.com/uBlockOrigin/uAssets/issues"
   },
@@ -138,7 +150,12 @@
     "group": "default",
     "title": "uBlock filters – Annoyances",
     "off": true,
-    "contentURL": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/annoyances.txt",
+    "contentURL": [
+      "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/annoyances.txt",
+      "https://cdn.rawgit.com/uBlockOrigin/uAssets/master/filters/annoyances.txt",
+      "https://gitcdn.xyz/repo/uBlockOrigin/uAssets/master/filters/annoyances.txt",
+      "https://gitcdn.link/repo/uBlockOrigin/uAssets/master/filters/annoyances.txt"
+    ],
     "supportURL": "https://github.com/uBlockOrigin/uAssets/issues"
   },
   "ublock-unbreak": {
@@ -147,7 +164,9 @@
     "title": "uBlock filters – Unbreak",
     "contentURL": [
       "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt",
-      "assets/ThirdParty/uBlockUnbreak.txt"
+      "https://cdn.rawgit.com/uBlockOrigin/uAssets/master/filters/unbreak.txt",
+      "https://gitcdn.xyz/repo/uBlockOrigin/uAssets/master/filters/unbreak.txt",
+      "https://gitcdn.link/repo/uBlockOrigin/uAssets/master/filters/unbreak.txt"
     ],
     "supportURL": "https://github.com/uBlockOrigin/uAssets/issues"
   },
@@ -158,8 +177,7 @@
     "group": "ads",
     "title": "Adblock Warning Removal List",
     "contentURL": [
-      "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt",
-      "assets/ThirdParty/WarningRemoval.txt"
+      "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt"
     ],
     "supportURL": "https://forums.lanik.us/"
   },
@@ -189,8 +207,7 @@
     "contentURL": [
       "https://easylist-downloads.adblockplus.org/easylist.txt",
       "https://easylist.to/easylist/easylist.txt",
-      "https://secure.fanboy.co.nz/easylist.txt",
-      "assets/ThirdParty/EasyList.txt"
+      "https://secure.fanboy.co.nz/easylist.txt"
     ],
     "supportURL": "https://forums.lanik.us/"
   },
@@ -212,8 +229,7 @@
     "contentURL": [
       "https://easylist-downloads.adblockplus.org/easyprivacy.txt",
       "https://easylist.to/easylist/easyprivacy.txt",
-      "https://secure.fanboy.co.nz/easyprivacy.txt",
-      "assets/ThirdParty/EasyPrivacy.txt"
+      "https://secure.fanboy.co.nz/easyprivacy.txt"
     ],
     "supportURL": "https://forums.lanik.us/"
   },
@@ -240,12 +256,15 @@
     "updateAfterDefault": 5,
     "title": "Malware Domain List",
     "contentURL": [
-      "https://cdn.rawgit.com/NanoMeow/MDLMirror/master/hosts.txt",
       "https://raw.githubusercontent.com/NanoMeow/MDLMirror/master/hosts.txt",
+      "https://cdn.rawgit.com/NanoMeow/MDLMirror/master/hosts.txt",
+      "https://gitcdn.xyz/repo/NanoMeow/MDLMirror/master/hosts.txt",
+      "https://gitcdn.link/repo/NanoMeow/MDLMirror/master/hosts.txt",
       "https://www.malwaredomainlist.com/hostslist/hosts.txt",
-      "https://cdn.rawgit.com/NanoMeow/MDLMirror/master/filter.txt",
       "https://raw.githubusercontent.com/NanoMeow/MDLMirror/master/filter.txt",
-      "assets/ThirdParty/MalwareDomain0.txt"
+      "https://cdn.rawgit.com/NanoMeow/MDLMirror/master/filter.txt",
+      "https://gitcdn.xyz/repo/NanoMeow/MDLMirror/master/filter.txt",
+      "https://gitcdn.link/repo/NanoMeow/MDLMirror/master/filter.txt"
     ]
   },
   "malware-1": {
@@ -255,8 +274,7 @@
     "title": "Malware domains",
     "contentURL": [
       "https://mirror.cedia.org.ec/malwaredomains/justdomains",
-      "https://mirror1.malwaredomains.com/files/justdomains",
-      "assets/ThirdParty/MalwareDomain1.txt"
+      "https://mirror1.malwaredomains.com/files/justdomains"
     ],
     "supportURL": "https://www.malwaredomains.com/"
   },
@@ -265,7 +283,12 @@
     "group": "malware",
     "off": true,
     "title": "Spam404",
-    "contentURL": "https://raw.githubusercontent.com/Dawsey21/Lists/master/adblock-list.txt",
+    "contentURL": [
+      "https://raw.githubusercontent.com/Dawsey21/Lists/master/adblock-list.txt",
+      "https://cdn.rawgit.com/Dawsey21/Lists/master/adblock-list.txt",
+      "https://gitcdn.xyz/repo/Dawsey21/Lists/master/adblock-list.txt",
+      "https://gitcdn.link/repo/Dawsey21/Lists/master/adblock-list.txt"
+    ],
     "supportURL": "http://www.spam404.com/"
   },
 
@@ -355,8 +378,7 @@
     "updateAfterDefault": 5,
     "title": "Peter Lowe’s Ad and tracking server list",
     "contentURL": [
-      "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext",
-      "assets/ThirdParty/PeterLowe.txt"
+      "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext"
     ],
     "supportURL": "https://pgl.yoyo.org/adservers/"
   },
@@ -365,7 +387,12 @@
     "group": "multipurpose",
     "off": true,
     "title": "NoCoin Filter List",
-    "contentURL": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
+    "contentURL": [
+      "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
+      "https://cdn.rawgit.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
+      "https://gitcdn.xyz/repo/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
+      "https://gitcdn.link/repo/hoshsadiq/adblock-nocoin-list/master/nocoin.txt"
+    ],
     "supportURL": "https://github.com/hoshsadiq/adblock-nocoin-list/issues"
   },
 
@@ -403,7 +430,12 @@
     "off": true,
     "title": "CHN: CJX's EasyList Lite",
     "lang": "zh",
-    "contentURL": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt",
+    "contentURL": [
+      "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt",
+      "https://cdn.rawgit.com/cjx82630/cjxlist/master/cjxlist.txt",
+      "https://gitcdn.xyz/repo/cjx82630/cjxlist/master/cjxlist.txt",
+      "https://gitcdn.link/repo/cjx82630/cjxlist/master/cjxlist.txt"
+    ],
     "supportURL": "https://github.com/cjx82630/cjxlist",
     "instructionURL": "http://abpchina.org/forum/forum.php?mod=viewthread&tid=29667"
   },
@@ -413,7 +445,12 @@
     "off": true,
     "title": "CZE, SVK: EasyList Czech and Slovak",
     "lang": "cs sk",
-    "contentURL": "https://raw.githubusercontent.com/tomasko126/easylistczechandslovak/master/filters.txt",
+    "contentURL": [
+      "https://raw.githubusercontent.com/tomasko126/easylistczechandslovak/master/filters.txt",
+      "https://cdn.rawgit.com/tomasko126/easylistczechandslovak/master/filters.txt",
+      "https://gitcdn.xyz/repo/tomasko126/easylistczechandslovak/master/filters.txt",
+      "https://gitcdn.link/repo/tomasko126/easylistczechandslovak/master/filters.txt"
+    ],
     "supportURL": "https://github.com/tomasko126/easylistczechandslovak"
   },
   "DEU-0": {
@@ -479,7 +516,12 @@
     "off": true,
     "title": "HUN: hufilter",
     "lang": "hu",
-    "contentURL": "https://raw.githubusercontent.com/szpeter80/hufilter/master/hufilter.txt",
+    "contentURL": [
+      "https://raw.githubusercontent.com/szpeter80/hufilter/master/hufilter.txt",
+      "https://cdn.rawgit.com/szpeter80/hufilter/master/hufilter.txt",
+      "https://gitcdn.xyz/repo/szpeter80/hufilter/master/hufilter.txt",
+      "https://gitcdn.link/repo/szpeter80/hufilter/master/hufilter.txt"
+    ],
     "supportURL": "https://github.com/szpeter80/hufilter"
   },
   "IDN-0": {
@@ -490,7 +532,13 @@
     "lang": "id",
     "contentURL": [
       "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt",
-      "https://raw.githubusercontent.com/heradhis/indonesianadblockrules/master/subscriptions/abpindo.txt"
+      "https://cdn.rawgit.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt",
+      "https://gitcdn.xyz/repo/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt",
+      "https://gitcdn.link/repo/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt",
+      "https://raw.githubusercontent.com/heradhis/indonesianadblockrules/master/subscriptions/abpindo.txt",
+      "https://cdn.rawgit.com/heradhis/indonesianadblockrules/master/subscriptions/abpindo.txt",
+      "https://gitcdn.xyz/repo/heradhis/indonesianadblockrules/master/subscriptions/abpindo.txt",
+      "https://gitcdn.link/repo/heradhis/indonesianadblockrules/master/subscriptions/abpindo.txt"
     ],
     "supportURL": "https://github.com/ABPindo/indonesianadblockrules"
   },
@@ -501,8 +549,10 @@
     "title": "IRN: Adblock-Iran",
     "lang": "fa",
     "contentURL": [
+      "https://raw.githubusercontent.com/farrokhi/adblock-iran/master/filter.txt",
       "https://cdn.rawgit.com/farrokhi/adblock-iran/master/filter.txt",
-      "https://raw.githubusercontent.com/farrokhi/adblock-iran/master/filter.txt"
+      "https://gitcdn.xyz/repo/farrokhi/adblock-iran/master/filter.txt",
+      "https://gitcdn.link/repo/farrokhi/adblock-iran/master/filter.txt"
     ],
     "supportURL": "https://github.com/farrokhi/adblock-iran"
   },
@@ -521,7 +571,12 @@
     "off": true,
     "title": "ISR: EasyList Hebrew",
     "lang": "he",
-    "contentURL": "https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt",
+    "contentURL": [
+      "https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt",
+      "https://cdn.rawgit.com/easylist/EasyListHebrew/master/EasyListHebrew.txt",
+      "https://gitcdn.xyz/repo/easylist/EasyListHebrew/master/EasyListHebrew.txt",
+      "https://gitcdn.link/repo/easylist/EasyListHebrew/master/EasyListHebrew.txt"
+    ],
     "supportURL": "https://github.com/easylist/EasyListHebrew"
   },
   "ITA-0": {
@@ -538,7 +593,12 @@
     "group": "regions",
     "off": true,
     "title": "ITA: ABP X Files",
-    "contentURL": "https://raw.githubusercontent.com/gioxx/xfiles/master/filtri.txt",
+    "contentURL": [
+      "https://raw.githubusercontent.com/gioxx/xfiles/master/filtri.txt",
+      "https://cdn.rawgit.com/gioxx/xfiles/master/filtri.txt",
+      "https://gitcdn.xyz/repo/gioxx/xfiles/master/filtri.txt",
+      "https://gitcdn.link/repo/gioxx/xfiles/master/filtri.txt"
+    ],
     "supportURL": "https://xfiles.noads.it/"
   },
   "JPN-0": {
@@ -547,7 +607,12 @@
     "off": true,
     "title": "JPN: ABP Japanese filters (日本用フィルタ)",
     "lang": "ja",
-    "contentURL": "https://raw.githubusercontent.com/k2jp/abp-japanese-filters/master/abpjf.txt",
+    "contentURL": [
+      "https://raw.githubusercontent.com/k2jp/abp-japanese-filters/master/abpjf.txt",
+      "https://cdn.rawgit.com/k2jp/abp-japanese-filters/master/abpjf.txt",
+      "https://gitcdn.xyz/repo/k2jp/abp-japanese-filters/master/abpjf.txt",
+      "https://gitcdn.link/repo/k2jp/abp-japanese-filters/master/abpjf.txt"
+    ],
     "supportURL": "https://github.com/k2jp/abp-japanese-filters/wiki/Support_Policy"
   },
   "JPN-1": {
@@ -566,7 +631,12 @@
     "off": true,
     "title": "KOR: Korean Adblock List",
     "lang": "ko",
-    "contentURL": "https://raw.githubusercontent.com/gfmaster/adblock-korea-contrib/master/filter.txt",
+    "contentURL": [
+      "https://raw.githubusercontent.com/gfmaster/adblock-korea-contrib/master/filter.txt",
+      "https://cdn.rawgit.com/gfmaster/adblock-korea-contrib/master/filter.txt",
+      "https://gitcdn.xyz/repo/gfmaster/adblock-korea-contrib/master/filter.txt",
+      "https://gitcdn.link/repo/gfmaster/adblock-korea-contrib/master/filter.txt"
+    ],
     "supportURL": "https://github.com/gfmaster/adblock-korea-contrib"
   },
   "KOR-1": {
@@ -575,7 +645,12 @@
     "off": true,
     "title": "KOR: YousList",
     "lang": "ko",
-    "contentURL": "https://raw.githubusercontent.com/yous/YousList/master/youslist.txt",
+    "contentURL": [
+      "https://raw.githubusercontent.com/yous/YousList/master/youslist.txt",
+      "https://cdn.rawgit.com/yous/YousList/master/youslist.txt",
+      "https://gitcdn.xyz/repo/yous/YousList/master/youslist.txt",
+      "https://gitcdn.link/repo/yous/YousList/master/youslist.txt"
+    ],
     "supportURL": "https://github.com/yous/YousList"
   },
   "LTU-0": {
@@ -611,7 +686,12 @@
     "off": true,
     "title": "NOR: Dandelion Sprouts norske filtre",
     "lang": "nb",
-    "contentURL": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianList.txt",
+    "contentURL": [
+      "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianList.txt",
+      "https://cdn.rawgit.com/DandelionSprout/adfilt/master/NorwegianList.txt",
+      "https://gitcdn.xyz/repo/DandelionSprout/adfilt/master/NorwegianList.txt",
+      "https://gitcdn.link/repo/DandelionSprout/adfilt/master/NorwegianList.txt"
+    ],
     "supportURL": "https://github.com/DandelionSprout/adfilt"
   },
   "POL-0": {
@@ -620,7 +700,12 @@
     "off": true,
     "title": "POL: Official Polish filters for AdBlock, uBlock Origin & AdGuard",
     "lang": "pl",
-    "contentURL": "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-adblock-filters/adblock.txt",
+    "contentURL": [
+      "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-adblock-filters/adblock.txt",
+      "https://cdn.rawgit.com/MajkiIT/polish-ads-filter/master/polish-adblock-filters/adblock.txt",
+      "https://gitcdn.xyz/repo/MajkiIT/polish-ads-filter/master/polish-adblock-filters/adblock.txt",
+      "https://gitcdn.link/repo/MajkiIT/polish-ads-filter/master/polish-adblock-filters/adblock.txt"
+    ],
     "supportURL": "https://github.com/MajkiIT/polish-ads-filter/issues",
     "instructionURL": "https://github.com/MajkiIT/polish-ads-filter#polish-filters-for-adblock-ublock-origin--adguard"
   },
@@ -632,7 +717,10 @@
     "lang": "ro",
     "contentURL": [
       "https://road.adblock.ro/lista.txt",
-      "https://raw.githubusercontent.com/tcptomato/ROad-Block/master/road-block-filters-light.txt"
+      "https://raw.githubusercontent.com/tcptomato/ROad-Block/master/road-block-filters-light.txt",
+      "https://cdn.rawgit.com/tcptomato/ROad-Block/master/road-block-filters-light.txt",
+      "https://gitcdn.xyz/repo/tcptomato/ROad-Block/master/road-block-filters-light.txt",
+      "https://gitcdn.link/repo/tcptomato/ROad-Block/master/road-block-filters-light.txt"
     ],
     "supportURL": "https://github.com/tcptomato/ROad-Block"
   },
@@ -681,7 +769,12 @@
     "off": true,
     "title": "SVN: Slovenian List",
     "lang": "sl",
-    "contentURL": "https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt",
+    "contentURL": [
+      "https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt",
+      "https://cdn.rawgit.com/betterwebleon/slovenian-list/master/filters.txt",
+      "https://gitcdn.xyz/repo/betterwebleon/slovenian-list/master/filters.txt",
+      "https://gitcdn.link/repo/betterwebleon/slovenian-list/master/filters.txt"
+    ],
     "supportURL": "https://github.com/betterwebleon/slovenian-list"
   },
   "SWE-1": {
@@ -690,7 +783,12 @@
     "off": true,
     "title": "SWE: Frellwit's Swedish Filter",
     "lang": "sv",
-    "contentURL": "https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Filter.txt",
+    "contentURL": [
+      "https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Filter.txt",
+      "https://cdn.rawgit.com/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Filter.txt",
+      "https://gitcdn.xyz/repo/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Filter.txt",
+      "https://gitcdn.link/repo/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Filter.txt"
+    ],
     "supportURL": "https://github.com/lassekongo83/Frellwits-filter-lists"
   },
   "TUR-0": {
@@ -709,7 +807,12 @@
     "off": true,
     "title": "VIE: ABPVN List",
     "lang": "vi",
-    "contentURL": "https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn.txt",
+    "contentURL": [
+      "https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn.txt",
+      "https://cdn.rawgit.com/abpvn/abpvn/master/filter/abpvn.txt",
+      "https://gitcdn.xyz/repo/abpvn/abpvn/master/filter/abpvn.txt",
+      "https://gitcdn.link/repo/abpvn/abpvn/master/filter/abpvn.txt"
+    ],
     "supportURL": "https://abpvn.com/"
   }
 }
