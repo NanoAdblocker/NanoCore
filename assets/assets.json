@@ -3,7 +3,7 @@
     "content": "internal",
     "updateAfter": 5,
     "contentURL": [
-      "https://raw.githubusercontent.com/NanoAdblocker/NanoCore/master/assets/assets.json",
+      "https://raw.githubusercontent.com/NanoAdblocker/NanoCore2/master/src/assets.json",
       "assets/assets.json"
     ]
   },
