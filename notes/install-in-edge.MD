@@ -3,10 +3,6 @@
 The Edge builds are still **in beta**, please report problems you encounter,
 even minor ones! We can not fix bugs that we are not aware of!
 
-~~Also, please upvote
-[this Edge layout engine bug](https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/17473318/)!~~
-We are dropping support for Edge 41 soon, please update Windows!
-
 ## Store Version
 
 [Nano Adblocker](https://www.microsoft.com/store/productId/9NSXDX2TDB3V)
