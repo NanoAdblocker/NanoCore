@@ -33,8 +33,9 @@ process.
 Nano Adblocker and Nano Defender do not actively collect any data of any kind.
 
 Nano Adblocker may connect to first-party and/or third-party servers to download
-assets updates. Built-in assets are defined [here](/assets/assets.json). You
-may import other assets, in which case Nano Adblocker will connect to
+assets updates. Built-in assets are defined
+[here](https://github.com/NanoAdblocker/NanoCore2/blob/master/src/assets.json).
+You may import other assets, in which case Nano Adblocker will connect to
 additional servers as per your instruction.
 
 When connecting to first-party servers, Nano Adblocker *may* supply a version
