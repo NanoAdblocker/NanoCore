@@ -14,6 +14,8 @@ found in the
 takes weeks for a new version to be published, so the Edge version will be
 somewhat behind and that is out of my control.*
 
+### Warning: Do not install from unofficial sources! Any websites that are not linked below are considered unofficial.
+
 ### [Get it for Chrome](https://chrome.google.com/webstore/detail/nano-adblocker/gabbbocakeomblphkmmnoamkioajlkfo)
 
 ### [Get it for Edge (Beta)](https://www.microsoft.com/store/productId/9NSXDX2TDB3V)
