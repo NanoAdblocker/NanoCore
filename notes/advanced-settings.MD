@@ -76,17 +76,6 @@ native request body filtering regardless whether it actually supports it. An
 extension restart is required. This settings is **not** affected by whether
 advanced mode is on.
 
-### `_nanoDisconnectFrom_jspenguincom` toggleable
-
-Default: `false`
-
-When set to `true`, Nano Adblocker will no longer send background requests to
-`jspenguin.com`. Consequently, some default filters and internal assets will
-update up to 5 times *less* frequently. This settings **is bypassed** when you
-use Quick Issue Reporter.
-
-This settings is **not** affected by whether advanced mode is on.
-
 ### `_nanoIgnorePerformanceAuditing` toggleable `[unavailable]`
 
 Default: `false`
