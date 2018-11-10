@@ -149,15 +149,6 @@ api.fetchText = function(url, onLoad, onError) {
         timeoutTimer = vAPI.setTimeout(onTimeout, timeoutAfter);
     };
 
-    // Patch 2018-03-05: Add ability to opt out from assets mirror
-    if ( 
-        nano.hiddenSettings._nanoDisconnectFrom_jspenguincom === true &&
-        actualUrl.startsWith('https://jspenguin.com/NanoAdblocker/AssetsMirror/')
-    ) {
-        onErrorEvent.call(xhr);
-        return;
-    }
-    
     // Be ready for thrown exceptions:
     // I am pretty sure it used to work, but now using a URL such as
     // `file:///` on Chromium 40 results in an exception being thrown.
