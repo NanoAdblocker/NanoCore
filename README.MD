@@ -7,8 +7,8 @@ Nano Adblocker is based on [uBlock Origin](https://github.com/gorhill/uBlock).
 Please open an issue if there is something you want us to know.
 
 Code is now moved to the
-[NanoCore2 repository](https://github.com/NanoAdblocker/NanoCore2). Use tags
-to get legacy code.
+[NanoCore2 repository](https://github.com/NanoAdblocker/NanoCore2). Legacy
+code can be downloaded from releases.
 
 *Chrome Web Store approves new builds **within seconds** but Microsoft Store
 takes weeks for a new version to be published, so the Edge version will be
