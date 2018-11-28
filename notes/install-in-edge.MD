@@ -25,15 +25,15 @@ process.
 
 3. Enter the page `about:flags` and check `Enable extension developer features`.
 
-4. Restart Edge, open `Extensions` pannel, click `Load extension` button to side
-   load the extracted package(s) from step 1.
+4. Restart Edge, open `Extensions` pannel, click `Load extension` button to
+   side load the extracted package(s) from step 1.
 
 ## Privacy Policy
 
 Nano Adblocker and Nano Defender do not actively collect any data of any kind.
 
-Nano Adblocker may connect to first-party and/or third-party servers to download
-assets updates. Built-in assets are defined
+Nano Adblocker may connect to first-party and/or third-party servers to
+download assets updates. Built-in assets are defined
 [here](https://github.com/NanoAdblocker/NanoCore2/blob/master/src/assets.json).
 You may import other assets, in which case Nano Adblocker will connect to
 additional servers as per your instruction.

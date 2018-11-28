@@ -1,2 +1,0 @@
-# Patch 2017-12-06: Make sure line endings are right on Windows 10
-*.sh text eol=lf
