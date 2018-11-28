@@ -6,7 +6,7 @@ Nano Adblocker is based on [uBlock Origin](https://github.com/gorhill/uBlock).
 
 Please open an issue if there is something you want us to know.
 
-Code is now moved to the
+New code is now in the
 [NanoCore2 repository](https://github.com/NanoAdblocker/NanoCore2). Legacy
 code can be downloaded from releases.
 
