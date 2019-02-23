@@ -12,10 +12,10 @@ New code is now in the
 [NanoCore2 repository](https://github.com/NanoAdblocker/NanoCore2). Legacy
 code can be downloaded from releases.
 
-## Install Links
-
 **Warning: Do not install from unofficial sources! Any websites that are not
 linked below are considered unofficial.**
+
+## Install Links
 
 ### [Get it for Chrome](https://chrome.google.com/webstore/detail/nano-adblocker/gabbbocakeomblphkmmnoamkioajlkfo)
 
