@@ -12,9 +12,9 @@ New code is now in the
 [NanoCore2 repository](https://github.com/NanoAdblocker/NanoCore2). Legacy
 code can be downloaded from releases.
 
-*Chrome Web Store approves new builds **within seconds** but Microsoft Store
+Chrome Web Store approves new builds **within seconds** but Microsoft Store
 takes weeks for a new version to be published, so the Edge version will be
-somewhat behind and that is out of my control.*
+somewhat behind and that is out of my control.
 
 ## Install Links
 
