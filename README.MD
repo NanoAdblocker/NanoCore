@@ -29,7 +29,7 @@ linked below are considered unofficial.**
 
 ## Official Ports
 
-### [Get it for Firefox ()](https://github.com/LiCybora/NanoCoreFirefox#nano-adblocker-core-for-firefox)
+### [Get it for Firefox (Maintained by @LiCybora)](https://github.com/LiCybora/NanoCoreFirefox#nano-adblocker-core-for-firefox)
 
 **Maintainers wanted for other browsers (open an issue and let me know)**
 
