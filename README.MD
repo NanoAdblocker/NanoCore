@@ -6,6 +6,8 @@ Nano Adblocker is based on [uBlock Origin](https://github.com/gorhill/uBlock).
 
 Please open an issue if there is something you want us to know.
 
+## Announcements
+
 New code is now in the
 [NanoCore2 repository](https://github.com/NanoAdblocker/NanoCore2). Legacy
 code can be downloaded from releases.
@@ -14,15 +16,22 @@ code can be downloaded from releases.
 takes weeks for a new version to be published, so the Edge version will be
 somewhat behind and that is out of my control.*
 
-### Warning: Do not install from unofficial sources! Any websites that are not linked below are considered unofficial.
+## Install Links
+
+**Warning: Do not install from unofficial sources! Any websites that are not
+linked below are considered unofficial.**
 
 ### [Get it for Chrome](https://chrome.google.com/webstore/detail/nano-adblocker/gabbbocakeomblphkmmnoamkioajlkfo)
 
 ### [Get it for Edge (Beta)](https://www.microsoft.com/store/productId/9NSXDX2TDB3V)
 
-### Maintainers wanted for other browsers (open an issue and let me know)
-
 ### [Get Nano Defender, the perfect companion extension for Nano Adblocker](https://jspenguin2017.github.io/uBlockProtector/)
+
+## Official Ports
+
+### [Get it for Firefox ()](https://github.com/LiCybora/NanoCoreFirefox#nano-adblocker-core-for-firefox)
+
+**Maintainers wanted for other browsers (open an issue and let me know)**
 
 ## For Developers
 
