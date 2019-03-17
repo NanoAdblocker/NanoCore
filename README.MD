@@ -31,7 +31,7 @@ linked below are considered unofficial.**
 
 ## For Developers
 
-### [Edge version discussion thread](https://github.com/NanoAdblocker/NanoCore/issues/40)
+### [Edge version discussion thread](https://github.com/NanoAdblocker/NanoCore/issues/253)
 
 ## Notable Change
 
