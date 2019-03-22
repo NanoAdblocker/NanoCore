@@ -10,7 +10,7 @@ Please open an issue if there is something you want us to know.
 
 New code is now in the
 [NanoCore2 repository](https://github.com/NanoAdblocker/NanoCore2). Legacy
-code can be downloaded from releases.
+code can be downloaded from release archives.
 
 **Warning: Do not install from unofficial sources! Any websites that are not
 linked below are considered unofficial.**
