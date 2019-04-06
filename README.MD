@@ -13,7 +13,7 @@ New code is now in the
 code can be downloaded from release archives.
 
 **Warning: Do not install from unofficial sources! Any websites that are not
-linked below are considered unofficial.**
+linked below are considered to be unofficial.**
 
 ## Install Links
 
