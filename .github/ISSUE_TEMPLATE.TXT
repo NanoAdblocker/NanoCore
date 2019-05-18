@@ -39,3 +39,6 @@ List filters you have enabled or disabled from the default settings.
 
 #### Your custom filters (Required if you have any)
 
+
+#### Your other extensions (Required if you have any)
+
