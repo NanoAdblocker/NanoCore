@@ -33,13 +33,19 @@ linked below are considered to be unofficial.**
 
 ### [Edge version discussion thread](https://github.com/NanoAdblocker/NanoCore/issues/253)
 
-## Notable Change
+## Notable Changes
 
 ### Nano Filter Editor
+
+- Syntax highlighting
+- Linting
 
 ![Screenshot](https://i.imgur.com/4KlLbcp.png)
 
 ### Nano Filter Viewer
+
+- Blazing fast
+- Plain string and regular expression search
 
 ![Screenshot](https://i.imgur.com/d9pVP3z.png)
 
@@ -47,7 +53,7 @@ linked below are considered to be unofficial.**
 
 [View resources library](https://github.com/NanoAdblocker/NanoFilters/blob/master/NanoFiltersSource/NanoResources.txt)
 
-## Other Change
+## Other Changes
 
 *Note: user interface and other housekeeping changes are not listed here.*
 
