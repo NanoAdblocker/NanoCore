@@ -35,29 +35,17 @@ linked below are considered to be unofficial.**
 
 ## Notable Change
 
-### \[[Work in progress](https://github.com/NanoAdblocker/NanoCore/issues/1)\] Nano Filter Linter, neat and saves frustration
+### Nano Filter Editor
 
-![Screenshot](https://i.imgur.com/SStKkqq.png)
+![Screenshot](https://i.imgur.com/4KlLbcp.png)
 
-Partially available since 1.0.0.22
+### Nano Filter Viewer
 
-### Nano Filter Viewer, powerful and blazing fast
+![Screenshot](https://i.imgur.com/d9pVP3z.png)
 
-![Screenshot](https://i.imgur.com/fZh4Hqn.png)
+### Nano Extra Resources
 
-Available since 1.0.0.10
-
-### [Nano Extra Resources](https://github.com/NanoAdblocker/NanoFilters/blob/master/NanoFiltersSource/NanoResources.txt), useful and configurable
-
-![Screenshot](https://i.imgur.com/0HIYf4d.png)
-
-Available since 1.0.0.6
-
-### Nano Filter Highlighter, beautiful and helpful
-
-![Screenshot](https://i.imgur.com/KktoFJL.png)
-
-Available since 1.0.0.0
+[View resources library](https://github.com/NanoAdblocker/NanoFilters/blob/master/NanoFiltersSource/NanoResources.txt)
 
 ## Other Change
 
@@ -67,12 +55,10 @@ Available since 1.0.0.0
 - [Tweaked filter syntax](https://github.com/NanoAdblocker/NanoCore2/blob/master/notes/filter_syntax.md#filter-syntax)
 - Enabled `Block CSP reports` by default (to prevent websites from abusing it
   to track users)
-- Added a few more filters to filters manager
 - Made cache control button to be always shown
 - Added force scroll mode (to be used with element zapper)
+- Added Quick Issue Reporter
+- Added a few more filters to filters manager
 
 There are also a few changes specifically for Edge:
 - Mapped `fetch` requests to `xhr`
-- Fixed the popup panel in logger
-- Fixed advanced settings button in dashboard
-- Fixed issues with InPrivate mode
