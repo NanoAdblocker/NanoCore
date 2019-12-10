@@ -19,7 +19,9 @@ linked below are considered to be unofficial.**
 
 ### [Get it for Chrome](https://chrome.google.com/webstore/detail/nano-adblocker/gabbbocakeomblphkmmnoamkioajlkfo)
 
-### [Get it for Edge (Beta)](https://www.microsoft.com/store/productId/9NSXDX2TDB3V)
+### [Get it for Edge (Beta)](https://microsoftedge.microsoft.com/addons/detail/epbkapkgcmdmfpogenoebpdeibmfinpf)
+
+### [Get it for Legacy Edge (Beta)](https://www.microsoft.com/store/productId/9NSXDX2TDB3V)
 
 ### [Get Nano Defender, the perfect companion extension for Nano Adblocker](https://jspenguin2017.github.io/uBlockProtector/)
 
