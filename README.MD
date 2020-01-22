@@ -68,9 +68,11 @@ linked below are considered to be unofficial.**
 - Added Quick Issue Reporter
 - Added a few more filters to filters manager
 
-There are also a few changes specifically for Edge:
+There are also a few changes specifically for legacy Edge:
+
 - Mapped `fetch` requests to `xhr`
 
 ## Other Notes
 
-Nano Adblocker is 100% free, and I do not accept donations for Nano Adblocker.
+- Nano Adblocker is 100% free, and I do not accept donations for Nano
+  Adblocker.
