@@ -70,3 +70,7 @@ linked below are considered to be unofficial.**
 
 There are also a few changes specifically for Edge:
 - Mapped `fetch` requests to `xhr`
+
+## Other Notes
+
+Nano Adblocker is 100% free, and I do not accept donations for Nano Adblocker.
