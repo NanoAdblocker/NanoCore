@@ -8,12 +8,12 @@ download assets updates. Built-in assets are defined
 You may import other assets, in which case Nano Adblocker will connect to
 additional servers as per your instruction.
 
-When connecting to first-party servers, Nano Adblocker *may* supply a version
-key (a hard-coded random string generated at *compile time*). A cache buster
-will always be supplied, it may reveal your system time accurate to about 1
+When connecting to first-party servers, Nano Adblocker may supply a version
+key (a hard-coded random string generated at compile time). A cache buster
+may also be supplied, it may reveal your system time accurate to about 1
 hour, your timezone will be kept private.
 
-By default, Nano Adblocker will *try* to block tracking scripts that would not
+By default, Nano Adblocker will try to block tracking scripts that would not
 result in breakage of the website, but there may be both false negatives and
 false positives. Nano Adblocker cannot protect yourself from tracking done by
 Edge nor Windows.
