@@ -29,7 +29,7 @@ https://github.com/gorhill/uBlock/issues/3315
 
 ---
 
-Make `_nanoIgnoreThirdPartyWhitelist` also discard rules transformed to
+Make `nanoIgnoreThirdPartyWhitelist` also discard rules transformed to
 exception rules due to only having negated domains.
 
 ---
@@ -114,18 +114,6 @@ Add undo button for wizard-created filters.
 `hard`
 
 https://github.com/gorhill/uBlock/issues/515
-
----
-
-Add dark theme.
-
-Maybe separate settings for normal and incognito mode?
-
-Blocked by https://github.com/NanoAdblocker/NanoCore/issues/33
-
-`blocked` `low priority`
-
-https://github.com/gorhill/uBlock/issues/3342
 
 ---
 
