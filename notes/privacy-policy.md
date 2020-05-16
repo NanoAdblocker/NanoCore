@@ -24,8 +24,8 @@ request will be sent. Nano Defender will never connect to a first-party server
 unless you loaded it in debug mode.
 
 Quick Issue Reporter, a convenience tool included in Nano Adblocker and Nano
-Defender, has a separate
-[privacy policy](https://github.com/jspenguin2017/uBlockProtector/blob/master/notes/issue-reporter.md#privacy-policy-for-quick-issue-reporter).
+Defender, has a
+[separate privacy policy](https://github.com/jspenguin2017/uBlockProtector/blob/master/notes/issue-reporter.md#privacy-policy-for-quick-issue-reporter).
 
 We reserve the right to modify this privacy policy at any time, with or without
 notice. By using Nano Adblocker and/or Nano Defender, you consent to this
