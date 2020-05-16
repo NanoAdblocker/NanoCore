@@ -14,8 +14,8 @@ may also be supplied, which can reveal your system time, but your timezone will
 be kept private.
 
 By default, Nano Adblocker will try to block tracking scripts that would not
-result in breakage of the website, but there may be both false negatives and
-false positives. Nano Adblocker cannot protect yourself from tracking done by
+result in breakage of the website, but there may be both false positives and
+false negatives. Nano Adblocker cannot protect yourself from tracking done by
 Edge nor by Windows.
 
 Nano Defender may connect to third-party servers when it is required for fixing
