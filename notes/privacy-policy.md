@@ -10,8 +10,8 @@ additional servers as per your instruction.
 
 When connecting to first-party servers, Nano Adblocker may supply a version
 key (a hard-coded random string generated at compile time). A cache buster
-may also be supplied, which can reveal your system time accurate to about 1
-hour, your timezone will be kept private.
+may also be supplied, which can reveal your system time, your timezone will be
+kept private.
 
 By default, Nano Adblocker will try to block tracking scripts that would not
 result in breakage of the website, but there may be both false negatives and
