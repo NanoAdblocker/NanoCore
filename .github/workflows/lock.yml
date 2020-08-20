@@ -1,4 +1,4 @@
-name: 'Lock Old Issues'
+name: 'Lock Old Threads'
 
 on:
   schedule:
