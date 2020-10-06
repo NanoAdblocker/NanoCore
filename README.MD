@@ -1,3 +1,7 @@
+# Important Announcements Regarding Recent Changes
+
+Please read announcements here: https://github.com/NanoAdblocker/NanoCore/issues/362
+
 # Nano Adblocker Core
 
 Just another adblocker
